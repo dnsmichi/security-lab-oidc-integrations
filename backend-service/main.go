@@ -22,3 +22,6 @@ func health(writer http.ResponseWriter, _ *http.Request) {
 	writer.WriteHeader(200)
 	_, _ = writer.Write([]byte("Service is healthy"))
 }
+
+
+
